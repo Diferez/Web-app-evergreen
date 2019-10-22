@@ -21,4 +21,4 @@ def guardarSensor():
     requests.post('https://api-evergreen-846.azurewebsites.net/tipoSensores', json = sensor)
     return(listarSensores())
 
-app.run(port=8080, debug=True)
+app.run()
